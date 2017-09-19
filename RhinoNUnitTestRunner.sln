@@ -5,19 +5,32 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhinoNUnitTestRunner", "RhinoNUnitTestRunner\RhinoNUnitTestRunner.csproj", "{A2F987A6-1603-4318-92A5-3E3F80C43313}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsUsingRhinoAPI", "TestsUsingRhinoAPI\TestsUsingRhinoAPI.csproj", "{25CD888A-763D-4FCF-8AA7-73A392C07B16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug32|Any CPU = Debug32|Any CPU
 		Debug64|Any CPU = Debug64|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug|Any CPU.ActiveCfg = Debug64|Any CPU
+		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug|Any CPU.Build.0 = Debug64|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug32|Any CPU.ActiveCfg = Debug32|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug32|Any CPU.Build.0 = Debug32|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug64|Any CPU.ActiveCfg = Debug64|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F987A6-1603-4318-92A5-3E3F80C43313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug32|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug32|Any CPU.Build.0 = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug64|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Debug64|Any CPU.Build.0 = Debug|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CD888A-763D-4FCF-8AA7-73A392C07B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
